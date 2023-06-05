@@ -40,20 +40,13 @@
     
     <section>
         <h1>Programação PHP</h1><br>
-        <h2>Resultados de FGTS</h2>
+        <h2>Resultado de sua análise de crédito</h2>
         
         <?php
 
-            $nomeCliente = $_POST["nome"];
-            $salarioCliente = $_POST["salario"];
+            
 
-            $resultadoMensal = ($salarioCliente/100)*8;
 
-            $resultadoAnual = $resultadoMensal*12;
-
-            echo "<br>Olá Sr(a) $nomeCliente o seu recolhimento mensal é de R$ $resultadoMensal<br><br>";
-    
-            echo "Anualmente será depositado em sua conta um total de: R$ $resultadoAnual<br>";
         ?>
 
         <br>
