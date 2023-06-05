@@ -40,11 +40,25 @@
     
     <section>
         <h1>Programação PHP</h1><br>
-        <h2>Resultado de sua análise de crédito</h2>
+        <h2>Resultado de sua análise de crédito</h2><br><br>
         
         <?php
 
-            
+            $nome = $_POST["nome"];
+
+            $profissao = $_POST["profissao"];
+
+            $salario = $_POST["salario"];
+
+                echo "Olá Sr(a) <b>$nome</b>, abaixo está o resultado de sua solicitação:<br><br>";
+
+                if($salario >=2000){
+                    echo "Parabéns, seu crédito <b>foi aprovado</b>, um de nossos consultores entrará em contato em breve!<br>";
+                    echo "Agradecemos a confiança<br>";
+                }else{
+                    echo "<b>Infelizmente</b>, sua solicitação <b>não foi aprovada</b> neste momento<br><br>";
+                    echo "Tente novamente em outro momento<br>";
+                }
 
 
         ?>
