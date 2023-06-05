@@ -25,6 +25,11 @@
             font-weight: bold;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+
+        h2{
+            text-align: left;
+        }
+
     </style>
 </head>
 
