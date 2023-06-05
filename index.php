@@ -44,7 +44,7 @@
     
     <section>
         <h1>Programação PHP</h1><br>
-        <h2>Análise de Crédito - Utilizando a função SE (IF/ELSE)</h2>
+        <h2>Análise de Seguro - Utilizando a função SE (IF/ELSE)</h2>
         
        <div class="formulario">
 
@@ -54,8 +54,8 @@
                 <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
                 <br>
                 <br>
-                <label for="profissao">Profissão:</label><br>
-                <input type="text" name="profissao" id="profissao" placeholder="Insira sua profissão">
+                <label for="idade">Idade:</label><br>
+                <input type="text" name="idade" id="idade" placeholder="Insira sua idade">
                 <br>
                 <br>
                 <label for="salario">Salário:</label><br>
